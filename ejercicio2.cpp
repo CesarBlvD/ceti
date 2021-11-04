@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("Pr0b@nd. _el#c|0d$go")
+    printf("Pr0b@nd. _el#c|0d$go");
     return 0;
 }
