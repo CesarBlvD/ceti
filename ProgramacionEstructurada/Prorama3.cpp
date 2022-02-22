@@ -196,7 +196,7 @@ int main()
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia4,Cal_Materia4);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia5,Cal_Materia5);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia6,Cal_Materia6);
-			uma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6;
+			Suma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6;
 			Promedio=Suma/6;
 			printf("*\t <.:Promedio:.> \t%.2f\n",Promedio);
 			}
@@ -246,7 +246,7 @@ int main()
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia5,Cal_Materia5);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia6,Cal_Materia6);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia7,Cal_Materia7);
-			uma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6,Cal_Materia7;
+			Suma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6,Cal_Materia7;
 			Promedio=Suma/7;
 			printf("*\t <.:Promedio:.> \t%.2f\n",Promedio);
 		}
@@ -294,7 +294,7 @@ int main()
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia6,Cal_Materia6);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia7,Cal_Materia7);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia8,Cal_Materia8);
-			uma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6,Cal_Materia7,Cal_Materia8;
+			Suma=Cal_Materia1+Cal_Materia2,Cal_Materia3,Cal_Materia4,Cal_Materia5,Cal_Materia6,Cal_Materia7,Cal_Materia8;
 			Promedio=Suma/8;
 			printf("*\t <.:Promedio:.> \t%.2f\n",Promedio);
 			}
