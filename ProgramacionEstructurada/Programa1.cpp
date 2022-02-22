@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
+#include <iostream> //Librerias
 //Cesar Antonio Hernandez Valtierra 21110066
 
 int main()
@@ -20,6 +20,7 @@ int main()
 	printf("%c",168); //Coloca el signo de interrogacion de manera correcta
 	printf("Cuantas materias tienes? ");
 	scanf("%d",&No_Materias);
+	system("cls");//Limpia la pantalla
 	
 	switch (No_Materias)
 	{
@@ -29,6 +30,7 @@ int main()
 			scanf("%s",&Nom_Materia1);
 			printf("Ingresa la calificacion de la primer materia: ");
 			scanf("%f",&Cal_Materia1);
+			system("cls"); //Limpia la pantalla
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			
 		}
@@ -43,6 +45,7 @@ int main()
 			scanf("%s",&Nom_Materia2);
 			printf("Ingresa la calificacion de la segunda materia: ");
 			scanf("%f",&Cal_Materia2);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 		}
@@ -62,6 +65,7 @@ int main()
 			scanf("%s",&Nom_Materia3);
 			printf("Ingresa la calificacion de la tercera materia: ");
 			scanf("%f",&Cal_Materia3);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
@@ -85,6 +89,7 @@ int main()
 			scanf("%s",&Nom_Materia4);
 			printf("Ingresa la calificacion de la cuarta materia: ");
 			scanf("%f",&Cal_Materia4);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
@@ -113,6 +118,7 @@ int main()
 			scanf("%s",&Nom_Materia5);
 			printf("Ingresa la calificacion de la quinta materia: ");
 			scanf("%f",&Cal_Materia5);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
@@ -146,6 +152,7 @@ int main()
 			scanf("%s",&Nom_Materia6);
 			printf("Ingresa la calificacion de la sexta materia: ");
 			scanf("%f",&Cal_Materia6);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
@@ -184,6 +191,7 @@ int main()
 			scanf("%s",&Nom_Materia7);
 			printf("Ingresa la calificacion de la septima materia: ");
 			scanf("%f",&Cal_Materia7);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
@@ -227,6 +235,7 @@ int main()
 			scanf("%s",&Nom_Materia8);
 			printf("Ingresa la calificacion de la octava materia: ");
 			scanf("%f",&Cal_Materia8);
+			system("cls");
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia1,Cal_Materia1);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia2,Cal_Materia2);
 			printf("*\t <Materia %s:.> \t%.2f\n",Nom_Materia3,Cal_Materia3);
